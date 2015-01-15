@@ -3,6 +3,7 @@
 class InvalidInputError < StandardError ; end
 
 class Sudo_game
+  #constructor
   def initialize
     @sudo_matrix= [[0,2,0,0,0,0,0,0,0], [4,5,6,0,0,0,0,0,1], [7,0,0,0,0,3,5,6,0],
                    [0,0,0,3,0,0,0,0,0], [5,6,0,0,0,0,0,0,0], [2,0,0,0,0,7,9,0,8],
